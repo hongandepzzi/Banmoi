@@ -1,0 +1,146 @@
+p {
+    color: red;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+.bo {
+    font-weight: Bold;
+}
+.bo:hover {
+    text-decoration: underline;
+}
+p:hover {
+    color: lightblue;
+}
+p:active {
+    color: orange;
+}
+.linkmmb {
+    text-align: center;
+    display: block;
+}
+.linkmmb:hover {
+    color: lightblue;
+}
+.linkmmb:active {
+    color: orange;
+}
+.nut {
+    color: white;
+    font-size: 50px;
+    font-family: Roboto, Arial;
+    font-style: italic;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: rgb(4,217,255);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s all;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    display: block;
+    margin: 0 auto;
+}
+.shit {
+    margin-top: 200px;
+}
+
+.an {
+    height: 50px;
+    border-radius: 50%;
+}
+.nut:hover {
+    background-color: #0088AF;
+}
+.nut:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+    background-color: orange;
+}
+.mmb2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 1px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0,15);
+    margin-bottom: 1000px;
+    cursor: pointer;
+    transition: width 2s;
+}
+.mmb2:hover {
+    width: 300px;
+}
+.Tran:hover {
+    color: chartreuse;
+    text-decoration: underline;
+}
+.fb {
+    display: inline-block;
+}
+.info {
+    display: inline-block;
+    margin-left: 10px;
+}
+.info:hover {
+    text-decoration: underline;
+}
+.tb {
+    width: 55px;
+    display: block;
+    margin-left: 48%;
+    margin-right: 50%;
+    border-radius: 50%;
+}
+.divan {
+    display: inline-block;
+    margin-top: 0px;
+}
+.divfo {
+    display: inline-block;
+}
+.up {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.in {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    background-color: lightsalmon;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.in:hover {
+    opacity: 0.7;
+}
+.in:active {
+    background-color: orange;
+}
+.div {
+    display: inline-block;
+}
+.divin {
+    display: inline-block;
+}
+.nn {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.mn {
+    margin-top: 1000px;
+}
